@@ -15,7 +15,7 @@ body {
     width: 100%;
     max-width: 100%;
     box-shadow: none;
-    background-color: #FC466B;
+    background-color: #EACFA6;
     position: fixed;
     height: 60px!important;
     overflow: hidden;
@@ -48,7 +48,7 @@ body {
     margin-top: 60px;
     transform: translateX(-250px);
     transition: transform 250ms ease-in-out;
-    background: linear-gradient(180deg, #FC466B 0%, #3F5EFB 100%);
+    background: #EACFA6;
 }
 .sidebarMenuInner{
     margin:0;
@@ -67,10 +67,10 @@ body {
 .sidebarMenuInner li span{
     display: block;
     font-size: 14px;
-    color: rgba(255, 255, 255, 0.50);
+    color: #8A8480;
 }
 .sidebarMenuInner li a{
-    color: #fff;
+    color: black;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
@@ -104,7 +104,7 @@ input[type=checkbox] {
     position: absolute;
     height: 3px;
     width: 100%;
-    background-color: #fff;
+    background-color: black;
 }
 .horizontal {
     transition: all 0.3s;
