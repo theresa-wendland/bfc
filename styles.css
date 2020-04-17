@@ -58,7 +58,7 @@ body {
   width: 100%;
   max-width: 100%;
   box-shadow: none;
-  background-color: #eacfa6;
+  background-color: #FC924C;
   position: fixed;
   height: 60px !important;
   overflow: hidden;
@@ -91,7 +91,7 @@ body {
   margin-top: 60px;
   transform: translateX(-250px);
   transition: transform 250ms ease-in-out;
-  background: #eacfa6;
+  background: #FC924C;
 }
 .sidebarMenuInner {
   margin: 0;
@@ -443,7 +443,9 @@ ul.social-footer2 li a {
 
 
 
-
+/*==================== 
+	cards on home page
+====================== */
 
 
 
@@ -798,4 +800,18 @@ h1 a{color:#131313; font-weight:bold;}
 .profile-card-5 .btn-primary{
     background-color:#4E5E30;
     border-color:#4E5E30;
+}
+
+
+
+
+/*==================== 
+	cards on home writers page
+====================== */
+.info .four .number{
+	display: block;
+	font-size: 20px;
+	padding: 3px 0;
+  font-weight: 700;
+  
 }
