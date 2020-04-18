@@ -210,10 +210,11 @@ input[type="checkbox"]:checked ~ .sidebarIconToggle > .diagonal.part-2 {
 .fa {
   padding: 10px;
   font-size: 20px;
-  width: 50px;
+  width: 40px;
   text-align: center;
   text-decoration: none;
   margin: 5px 2px;
+  border-radius: 50%;
 }
 
 .fa:hover {
@@ -730,7 +731,7 @@ h1 a {
 }
 .profile-card-4 .card-img-block > .info-box {
   position: absolute;
-  background: rgba(217, 11, 225, 0.6);
+  background: rgba(154, 142, 155, 0.6);
   width: 100%;
   height: 100%;
   color: #fff;
@@ -748,7 +749,7 @@ h1 a {
 }
 .profile-card-4 h5 {
   font-weight: 600;
-  color: #d90be1;
+  color: black;
 }
 .profile-card-4 .card-text {
   font-weight: 300;
@@ -766,15 +767,14 @@ h1 a {
   font-size: 16px;
   color: #d90be1;
   text-align: center;
-  border: 1px solid #d90be1;
-  width: 30px;
-  height: 30px;
-  line-height: 30px;
-  border-radius: 50%;
+  border: 1px solid black;
+ 
+  
+  
   margin: 0 5px;
 }
 .profile-card-4 i:hover {
-  background-color: #d90be1;
+  background-color: grey;
   color: #fff;
 }
 
@@ -825,9 +825,37 @@ h1 a {
 
 
 
+/*==================== 
+	pro tip animation
+====================== */
 
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
 
-
+.hidden {
+  opacity:0;
+}
+.console-container {
+ 
+  font-family:Khula;
+  font-size:4em;
+  text-align:left;
+  height:200px;
+  width:500px;
+  display:block;
+ 
+  color:orange;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+   display:inline-block;
+ 
+  top:-0.14em;
+  left:10px;
+}
 
 
 
